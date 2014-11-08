@@ -21,6 +21,9 @@ ALERT_BACKENDS = ('url_monitor.backend.mail.MailAlert',)
 #回调的URl
 ALERT_CALLBACK = ('http://127.0.0.1/url/error_api')
 
+#show web ui ip:port
+WEBUI = '127.0.0.1:8888'
+
 # 你的邮箱
 EMAIL_HOST = 'smtp.163.com'
 EMAIL_PORT = 25
